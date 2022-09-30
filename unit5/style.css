@@ -1,0 +1,80 @@
+body {
+  background: green;
+}
+h1, h2, h3{
+  text-align: center;
+}
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: lightblue;
+  box-shadow: 10px 10px;
+}
+div {
+  width: 90%;
+  margin: auto;
+}
+.itembox {
+  border-style: solid;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+  background-color: darkslategrey;
+  color: coral;
+  padding: 18px;
+}
+.favorite {
+  border-style: groove;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+  background-color: aliceblue;
+  color: cadetblue;
+  padding: 18px;
+}
+ol {
+  background: lightcyan;
+  padding: 10px;
+}
+
+ul {
+  background: deepskyblue;
+  padding: 30px;
+}
+
+ol li {
+  background: lightgoldenrodyellow;
+  color: salmon;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+ul li {
+  background: lightcyan;
+  color: navy;
+  margin: 15px;
+}
+.navbar {
+  list-style-type: none;
+  margin: 20px 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbarOption {
+  float: left;
+  margin: 0px;
+}
+
+.navbarOption a {
+  display: block;
+  color: lightgrey;
+  font-size: 13px;
+  text-align: center;
+  padding: 20px 5px;
+  text-decoration: none;
+  background-color: darkslategrey;
+}
+
+.navbarOption a:hover {
+  background-color: #111;
+}
