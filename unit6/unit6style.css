@@ -1,0 +1,26 @@
+main {
+  background-color: darkslategrey;
+  color: darkgrey;
+  margin: 20px;
+}
+body {
+  background-image: url("backgroundStarWars.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#wrapper {
+  width:60%;
+  margin: auto;
+  margin-top: 30px;
+}
+ul {
+  list-style-image: url("Luke.png");
+}
+.specialborder {
+  border-image-slice: 40 40 40 40;
+  border-image-width: 13px 13px 13px 13px;
+  border-image-outset: 13px 13px 13px 13px;
+  border-image-repeat: round;
+  border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+  border-style: solid;
+}
