@@ -4,7 +4,7 @@ main {
   margin: 20px;
 }
 body {
-  background-image: url("backgroundStarWars.jpg");
+  background-image: url("/unit6/images/backgroundStarWars.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -14,7 +14,7 @@ body {
   margin-top: 30px;
 }
 ul {
-  list-style-image: url("Luke.png");
+  list-style-image: url("/unit6/images/Luke.png");
 }
 .specialborder {
   border-image-slice: 40 40 40 40;
